@@ -6,3 +6,9 @@
     background-image: url(https://lipsum.app/random/1600x900);
     background-size: cover;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

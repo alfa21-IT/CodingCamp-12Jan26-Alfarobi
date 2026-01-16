@@ -6,25 +6,36 @@
     <title>Portofolio Alfa</title>
 
     <!-- CSS External -->
-    <link rel="stylesheet" href="style.css\Style.CSS/">
+    <link rel="stylesheet" href="css\Style.CSS">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
     <!-- Header Content -->
-     <Header>
+     <Header class="header p-4 flex justify-between items-center">
         <!-- Logo -->
         <div class="logo"></div>
-
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Our Profile</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Message Us</a>
-
+        <!-- Navigation menu -->
+        <nav class="flex">
+            <a class="border p-2 rounded"href="#">Home</a>
+            <a class="border p-2 rounded"href="#">Our Profile</a>
+            <a class="border p-2 rounded"href="#">Portfolio</a>
+            <a class="border p-2 rounded"href="#">Message Us</a>
+            <section class="ml-4">
+                <button class="bg-green-500 text-white px-4 py-2 rounded">Login</button>
+            </section>
         </nav>
+        
      </Header>
-
+     <hr>
     <!-- Main Content -->
-    <Main></Main>
+    <Main>
+        <section class="p-4 text-center">
+            <h1 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
+            <p class="mb-4">Hello! I'm Alfa, a passionate developer. Explore my work and projects below.</p>
+            <div class="avatar mx-auto mb-4"></div>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded">Contact Me</button>
+        </section>
+    </Main>
 
     <!-- Footer Content -->
     <Footer></Footer>
